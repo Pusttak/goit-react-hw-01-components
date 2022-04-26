@@ -5,13 +5,13 @@
   padding: 10px;
   border-radius: 4px;
   background-color: rgb(245, 245, 245);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .item:hover {
-    box-shadow: 0 4px 10px rgb(0 0 0 / 20%), 0 10px 20px rgb(0 0 0 / 10%);
-    transform: translateY(3px);
-    z-index: 1010;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 20%), 0 10px 20px rgb(0 0 0 / 10%);
+  transform: translateY(3px);
+  z-index: 1010;
 }
 
 .item:not(:last-child) {
@@ -34,7 +34,7 @@
   margin: 10px;
   width: 20px;
   height: 20px;
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 
 .offline {

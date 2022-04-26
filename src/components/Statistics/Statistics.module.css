@@ -1,23 +1,22 @@
 .statistics {
   border-radius: 4px;
   overflow: hidden;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .statistics:hover {
-    box-shadow: 0 4px 10px rgb(0 0 0 / 20%), 0 10px 20px rgb(0 0 0 / 10%);
-    transform: translateY(3px);
-
+  box-shadow: 0 4px 10px rgb(0 0 0 / 20%), 0 10px 20px rgb(0 0 0 / 10%);
+  transform: translateY(3px);
 }
 
 .title {
-text-align: center;
-margin: 0;
-background-color: rgb(245, 245, 245);
-color: rgb(99, 99, 99);
-padding: 40px 0;
-font-size: 32px;
-font-weight: 500;
+  text-align: center;
+  margin: 0;
+  background-color: rgb(245, 245, 245);
+  color: rgb(99, 99, 99);
+  padding: 40px 0;
+  font-size: 32px;
+  font-weight: 500;
 }
 
 .statList {
@@ -26,22 +25,22 @@ font-weight: 500;
 }
 
 .item {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 10px;
-width: 80px;
-color: white;
-background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 80px;
+  color: white;
+  background-color: red;
 }
 
 .label {
-font-size: 18px;
-font-weight: 500;
-margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
 .percentage {
   font-size: 36px;
-font-weight: 600;
+  font-weight: 600;
 }

@@ -5,13 +5,13 @@
 
   background-color: rgb(245, 245, 245);
   border-radius: 8px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .profile:hover {
-    box-shadow: 0 4px 10px rgb(0 0 0 / 20%), 0 10px 20px rgb(0 0 0 / 10%);
-    transform: translateY(3px);
-    z-index: 1010;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 20%), 0 10px 20px rgb(0 0 0 / 10%);
+  transform: translateY(3px);
+  z-index: 1010;
 }
 
 .description {
@@ -56,22 +56,20 @@
   font-size: 32px;
   padding: 10px;
   border-top: 2px solid white;
-
 }
 
 .stats li {
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    
-  }
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
 
-  .stats li:not(:last-child) {
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    border-right: 1px solid white;
-  }
+.stats li:not(:last-child) {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  border-right: 1px solid white;
+}
 
 .label {
   font-size: 16px;
@@ -85,5 +83,3 @@
   font-weight: 700;
   color: rgb(79, 79, 79);
 }
-
-
