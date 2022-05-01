@@ -5,23 +5,17 @@ import css from 'components/FriendList/FriendList.module.css';
 export const FriendList = ({ friends }) => (
   <ul className={css.friendList}>
     {friends.map(({ isOnline, avatar, name, id }) => (
-      <FriendListItem
-        key={id}
-        isOnline={isOnline}
-        avatar={avatar}
-        name={name}
-      />
+      <li className={css.item} key={id}>
+        <FriendListItem isOnline={isOnline} avatar={avatar} name={name} />
+      </li>
     ))}
   </ul>
 );
 
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(
-    PropTypes.exact({
-      isOnline: PropTypes.bool.isRequired,
-      avatar: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      id: PropTypes.number,
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
     }),
   ),
 };
